@@ -1,46 +1,64 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ももたろー"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+昔々、あるところにおじいさんとおばあさんがいました。 [l][r]
 
-メロスは激怒した。[l][r]
+おじいさんは山へ芝刈りにおばあさんは川へ洗濯にいきました。 [l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+おばあさんが川で洗濯していると大きな桃が　 [l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_momo] →流れてきた  [endlink][r]
+[link target=*tag_non] →流れてこない  [endlink][r]
 [s]
 
-*tag_sleep
+*tag_momo
+
+[bg storage=momotarou.png time=500]
 
 [cm]
+その桃を割ってみると、中から小さな男の子が出てきました。 　[l][r]
 
-[bg storage=sleep.jpg time=500]
+おじいさんとおばあさんはその子に桃太郎と名づけ、大切に育てました。 [l][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+なんやかんやあり、桃太郎は仲間と鬼退治に行くことになり、鬼に [l][r]
 
-【 BAD END 】[l][cm]
+[link target=*tag_win] →勝った  [endlink][r]
+[link target=*tag_lose] →負けた  [endlink][r]
+[s]
+
+*tag_win
+
+[bg storage=au.jpg time=500]
+
+[cm]
+その後無事実写化されました。 [l][r]
+
+【スマホ買うならau!!】 [l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_lose
 
-[bg storage=run.jpg time=500]
+[bg storage=kimetsu.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+世の中は鬼であふれかえり、丹次郎が生まれるのでありました。 [l][r]
 
-【 GOOD END 】[l][cm]
+【無限列車編スタート】 [l][cm]
+
+[jump target=*start]
+
+*tag_non
+
+[bg storage=kimetsu.jpg time=500]
+
+[cm]
+世の中は鬼であふれかえり、丹次郎が生まれるのでありました。 [l][r]
+
+【無限列車編スタート】[l][cm]
 
 [jump target=*start]
